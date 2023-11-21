@@ -1,0 +1,39 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 100px 10px 100px;
+}
+
+.footer_content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.socials {
+  padding: 0 70px;
+}
+
+.socials > img {
+  margin-left: 20px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  color: gray;
+  font-size: 0.9rem;
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+.SC {
+  margin-top: 40px;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}

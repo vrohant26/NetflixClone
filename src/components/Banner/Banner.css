@@ -1,0 +1,51 @@
+.banner {
+  position: relative;
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  max-width: 40%;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  z-index: 99;
+}
+
+.content > h2 {
+  font-size: 3rem;
+}
+
+.content > p {
+  font-size: 1.2rem;
+}
+
+.content > .buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.content > .buttons > button {
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px 30px;
+  border: none;
+}
+
+.darkshade {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 8.4rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+}
